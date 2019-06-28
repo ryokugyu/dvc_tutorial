@@ -1,0 +1,8 @@
+wdir: ..
+outs:
+- path: data/mnist.zip
+  metric: false
+  cache: true
+  persist: false
+  md5: 06f4d11dbfe2943a4c7dd3eaf8e76290
+md5: afdf6dec25c4b55ae7027fe6e64df16e
