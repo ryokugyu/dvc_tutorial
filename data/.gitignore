@@ -1,1 +1,7 @@
 /mnist.zip
+/mnist_train.csv
+/mnist_test.csv
+/X_train.npy
+/Y_train.npy
+/X_val.npy
+/Y_val.npy

@@ -1,0 +1,4 @@
+['remote "s3remote"']
+url = s3://dvc-mnist-tutorial
+[core]
+remote = s3remote

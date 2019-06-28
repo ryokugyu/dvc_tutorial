@@ -1,0 +1,17 @@
+wdir: .
+cmd: unzip data/mnist.zip -d data/
+outs:
+- path: data/mnist_train.csv
+  metric: false
+  cache: true
+  persist: false
+  md5: 04a378afedae4d1f329c0b5a5cfcea8c
+- path: data/mnist_test.csv
+  metric: false
+  cache: true
+  persist: false
+  md5: f7aa04a4b094c016b7882d12986e1323
+deps:
+- path: data/mnist.zip
+  md5: 06f4d11dbfe2943a4c7dd3eaf8e76290
+md5: 3bc65e8cadb76fb632ffabae980fb8a6

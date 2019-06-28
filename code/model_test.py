@@ -30,7 +30,6 @@ print("Loaded model from disk")
 
 
 test = pd.read_csv(TEST_INPUT)
-sys.stderr.write(f"Training data size is {test.shape}")
 Y_test = test["label"]
 
 # Drop 'label' column

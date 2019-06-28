@@ -1,0 +1,31 @@
+wdir: .
+cmd: python code/split_test_train.py 0.33 2
+outs:
+- path: data/X_train.npy
+  metric: false
+  cache: true
+  persist: false
+  md5: 8281637e0ef5d0b149c19e56109bd19c
+- path: data/Y_train.npy
+  metric: false
+  cache: true
+  persist: false
+  md5: 491c1bcf9c862b71160a88a337be0b87
+- path: data/X_val.npy
+  metric: false
+  cache: true
+  persist: false
+  md5: febf0f1a33b6e5e1c267951e0b154c1c
+- path: data/Y_val.npy
+  metric: false
+  cache: true
+  persist: false
+  md5: 732680ea6cf78292881ca6be309c8c9f
+deps:
+- path: data/mnist_train.csv
+  md5: 04a378afedae4d1f329c0b5a5cfcea8c
+- path: code/split_test_train.py
+  md5: 7bee1e11fc9714f21cf671e1e9f62dd9
+- path: code/conf.py
+  md5: af4d07a28712f98fe4b5f8e3fea02345
+md5: b284f22a8f91d346f7b0b89ecfdba299

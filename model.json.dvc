@@ -1,0 +1,27 @@
+wdir: .
+cmd: python code/model_train.py 1 256
+outs:
+- path: model/model.json
+  metric: false
+  cache: true
+  persist: false
+  md5: aa104d64cc995b98358647274e0eff45
+- path: model/model.h5
+  metric: false
+  cache: true
+  persist: false
+  md5: ddcf53cfcd4f1896cff8d008cb8aabd1
+deps:
+- path: data/X_train.npy
+  md5: 8281637e0ef5d0b149c19e56109bd19c
+- path: data/Y_train.npy
+  md5: 491c1bcf9c862b71160a88a337be0b87
+- path: data/X_val.npy
+  md5: febf0f1a33b6e5e1c267951e0b154c1c
+- path: data/Y_val.npy
+  md5: 732680ea6cf78292881ca6be309c8c9f
+- path: code/conf.py
+  md5: af4d07a28712f98fe4b5f8e3fea02345
+- path: code/model_train.py
+  md5: 0eca83f7f9aba80107a66e0abdbd729f
+md5: cf4cde21278a2c477af80f2e8da25474

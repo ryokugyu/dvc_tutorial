@@ -1,0 +1,20 @@
+wdir: .
+cmd: python code/model_test.py
+outs:
+- path: data/eval.txt
+  metric: true
+  cache: false
+  persist: false
+  md5: 613cdc3e89d5cd6b869b91214b035e61
+deps:
+- path: data/mnist_train.csv
+  md5: 04a378afedae4d1f329c0b5a5cfcea8c
+- path: code/conf.py
+  md5: af4d07a28712f98fe4b5f8e3fea02345
+- path: code/model_test.py
+  md5: 64f9a4d772699197d65d512f649a8a7c
+- path: model/model.json
+  md5: aa104d64cc995b98358647274e0eff45
+- path: model/model.h5
+  md5: ddcf53cfcd4f1896cff8d008cb8aabd1
+md5: 18aeba4ed63e9945820737f44f828cfc
