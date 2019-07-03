@@ -2,10 +2,14 @@
 
 
 ### Initialize git repository
-`git init`
+```
+git init
+```
 
 ### Initialize DVC repository
-`dvc init`
+```
+dvc init
+```
 
 ### For training the model first. splitting the training dataset into 70-30 ratio nad saving intermediate output files.
 
