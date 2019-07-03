@@ -1,6 +1,5 @@
-# dvc_tutorial
+# DVC Tutorial
 
-Unzip the mnist dataset present in /data folder.
 
 ### Initialize git repository
 `git init`
